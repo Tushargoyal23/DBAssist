@@ -16,6 +16,9 @@ repositories {
 	mavenCentral()
 }
 
+bootJar {
+	archiveFileName = 'dbassist.jar'
+}
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-webmvc'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
